@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Showcase Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="dashboard-shell">
+    <header class="dashboard-header" id="top">
+      <div>
+        <p class="eyebrow">GREAT EMPIRE Portfolio</p>
+        <h1>Project Showcase Dashboard</h1>
+      </div>
+      <div class="header-meta">
+        <span>12 Projects</span>
+      </div>
+      <nav class="top-nav">
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="info-grid">
+      <section class="about-section info-section" id="about">
+        <div class="info-card">
+          <p class="eyebrow">About</p>
+          <h2>About GREAT EMPIRE</h2>
+          <p>GREAT EMPIRE Portfolio showcases innovative web applications and APIs with clean design, thoughtful UX, and scalable architecture. Explore featured work that highlights modern product development across design systems, dashboards, and service integrations.</p>
+        </div>
+      </section>
+
+      <section class="contact-section info-section" id="contact">
+        <div class="info-card">
+          <p class="eyebrow">Contact</p>
+          <h2>Get in Touch</h2>
+          <p>Need a new project, product launch, or API integration? Reach out to start a conversation and let’s build something exceptional together.</p>
+          <div class="contact-details">
+            <a class="contact-link" href="mailto:greatempire187@gmail.com">greatempire187@gmail.com</a>
+            <a class="contact-link" href="tel:09118755821">09118755821</a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="filter-panel">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="completed">Completed</button>
+      <button class="filter-btn" data-filter="in-progress">In Progress</button>
+      <button class="filter-btn" data-filter="web-app">Web Apps</button>
+      <button class="filter-btn" data-filter="api">APIs</button>
+    </section>
+
+    <section class="cards-grid" id="projectGrid"></section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
